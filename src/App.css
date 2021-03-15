@@ -54,7 +54,8 @@ h3{
 		grid-row: unset !important;
   }
   .table-wrapper{
-    min-height: 100vh;
+    overflow-y: auto;
+    height: 60vh;
 		grid-column: unset !important;
 		grid-row: unset !important;
     
