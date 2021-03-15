@@ -15,6 +15,7 @@ class Topsala extends Component {
         const player = this.state.player
         return (
             <div className='table-wrapper'>
+            <h3>Top Earners in The MLS </h3>
             <table className='fl-table'>
             <thead>
                 <tr>
