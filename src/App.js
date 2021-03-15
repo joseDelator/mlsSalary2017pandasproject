@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Topsala from './componets/Topsala'
+import Clubsala from './componets/Clubsala'
+import Positionsala from './componets/positionsala'
+import Positionprice from './componets/positionprice';
+import Salarygrowth from './componets/SalaryGrowth';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>MLS Salary Data from   2017</h1>
+      <div className="grid_container">
+      <Clubsala/>
+      <Topsala/>
+      <Positionsala/>
+      <Positionprice/>
+      <Salarygrowth/>
+      </div>
     </div>
   );
 }
