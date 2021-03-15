@@ -31,11 +31,7 @@ h3{
  
   grid-column: span 2;
 }
-.line{}
-.Bar2{
- 
-  
-}
+
 @media(max-width:1020px){
   .grid_container{
     justify-content: center;
@@ -56,5 +52,11 @@ h3{
     min-height: unset;
 		grid-column: unset !important;
 		grid-row: unset !important;
+  }
+  .table-wrapper{
+    min-height: 100vh;
+		grid-column: unset !important;
+		grid-row: unset !important;
+    
   }
 }
