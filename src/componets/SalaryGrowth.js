@@ -16,8 +16,10 @@ export default function Salarygrowth() {
           {
            label: "Averge Salaries  by Year 2007 to 2017",
             data: [104000, 105000, 121000, 156000,143000, 156000, 147000, 204000, 264000, 290000, 297000 ],
-            backgroundColor: "rgba(79, 195, 161, 0.7)",
-            hoverBackgroundColor:"#324960"
+            backgroundColor: "rgba(79, 195, 161, 0.5)",
+            pointBackgroundColor:"#324960",
+            pointRadius:"5",
+            pointHoverRadius:'5'
           }
         ]
       },
